@@ -36,7 +36,7 @@ percent = (count/(ca.shape[0]*ca.shape[1]))*100
 
 print("Pixels with RGB values smaller than", value,  ":", count)
 
-print("Percentage of pixels with RGB values below", value, ":", round(percent, 2), ‘%’)
+print("Percentage of pixels with RGB values below", value, ":", round(percent, 2), '%')
 
 
 new = np.zeros(ca.shape)
