@@ -57,4 +57,4 @@ for row in range(new.shape[0]):
 newName = imgName.split('.')[0] + '_complement.png'
 
 
-plt.imsave(newName, new)
+plt.imsave(newName, new)
